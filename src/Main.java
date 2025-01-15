@@ -7,14 +7,33 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
 
 public class Main {
+    public static void main(String[] args) {
+       /* Scanner scanner = new Scanner(System.in);
+        System.out.print("Geben Sie einen Großbuchstaben ein: ");
+        char startBuchstabe = scanner.next().charAt(0);
+        List<Informationen> eintraege = lesenDateiXML(System.getProperty("user.dir") + "\\src\\fallakten.xml");
+        Set<String> uniqueNames = new LinkedHashSet<>();
+        for (Informationen eintrag : eintraege) {
+            String name = Informationen.getName;
+            if (Character.isUpperCase(name.charAt(0)) && name.charAt(0) == startBuchstabe) {
+                uniqueNames.add(name);
+            }
+        }
+
+        // Afișează numele fără dubluri
+        for (String name : uniqueNames) {
+            System.out.println(name);
+        }*/
+
+
+    }
     public class Informationen{
         private int id;
         private String patientName;
@@ -121,12 +140,6 @@ public class Main {
         }
         return eintraege;
     }
-    public static void main(String[] args) {
 
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-
-
-    }
 }
 
