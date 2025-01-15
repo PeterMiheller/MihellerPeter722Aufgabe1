@@ -1,0 +1,18 @@
+<logs>
+    <log>
+        <Datum>2023-11-05</Datum>
+        <Diagnose>Lungenentzündung</Diagnose>
+        <Id>1</Id>
+        <Krankenhaus>Princeton-Plainsboro Teaching Hospital</Krankenhaus>
+        <Patient>John Doe</Patient>
+        <Symptom>Fieber</Symptom>
+    </log>
+    <log>
+        <Datum>2023-10-20</Datum>
+        <Diagnose>Migräne</Diagnose>
+        <Id>2</Id>
+        <Krankenhaus>Princeton-Plainsboro Teaching Hospital</Krankenhaus>
+        <Patient>Jane Smith</Patient>
+        <Symptom>Kopfschmerzen</Symptom>
+    </log>
+</logs>
